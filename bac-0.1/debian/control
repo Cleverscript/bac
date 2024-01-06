@@ -1,0 +1,15 @@
+Source: bac
+Section: unknown
+Priority: optional
+Maintainer: Dokukin Vyacheslav Olegovich <toorrp4@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Homepage: https://github.com/Cleverscript/pki
+#Vcs-Browser: https://salsa.debian.org/debian/bac
+#Vcs-Git: https://salsa.debian.org/debian/bac.git
+Rules-Requires-Root: no
+
+Package: bac
+Architecture: all
+Depends: gpg, gpg-agent, s3cmd
+Description: This package allows you to organize backup of critical infrastructure files using the s3cmd package and cloud storage (for example AWS or SELECTEL)

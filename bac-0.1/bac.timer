@@ -1,0 +1,9 @@
+[Unit]
+Description=Runs backup bac.service
+
+[Timer]
+OnUnitActiveSec=1m
+Unit=bac.service
+
+[Install]
+WantedBy=multi-user.target
